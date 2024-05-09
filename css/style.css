@@ -1,0 +1,167 @@
+/* importando a fonte roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* variaves */
+:root{
+    --cor-text-1: #ffffff;
+    --cor-text-2: #000000;
+    --cor-text-3: #130544;
+    --cor-text-4: #;
+
+    --cor-fundo-1: #ffffff;
+    --cor-fundo-2: #e0dfd938;
+    --cor-fundo-3: #c1dae62f;
+    --cor-fundo-4: #;
+    --cor-fundo-5: #;
+
+    --font-peso-leve: 200;
+    --font-peso-normal: 400;
+    --font-peso-medio: 600;
+    --font-peso-bold: 900;
+
+}
+
+/* nicio do CSS da page site geral  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* scroll-behavior: smooth; *//*se for ter rolagem lenta*/
+}
+
+body{
+    margin: 0;
+    background: var(--cor-fundo-1);
+}
+
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background:var(--cor-fundo-2);
+}
+
+/* Inicio do CSS do header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: var(--cor-fundo-3);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 30px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+img{
+    width: 150px;
+}
+
+.menu-geral{
+    display: flex;
+    background: ;
+    justify-content: end;
+    padding: 10px 20px;
+}
+
+.menu-geral ul{
+    display: flex;
+    gap: 20px;
+}
+
+.menu-geral ul li a{
+    color:var(--cor-text-3);
+    background:var(--cor-fundo-1);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    /* sombra */
+    box-shadow: rgba(0, 0, 0, 0,15) 1.95px 1.95px 2.6px;
+}
+
+.menu-geral ul li{
+    list-style: none;
+}
+
+/* Inicio do CSS do main */
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+h1{
+    text-align: center;
+    color: var(--cor-text-3);
+    font-weight: 900;
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+h2{
+    text-align: center;
+    color: var(--cor-text-3);
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h4{
+    text-align:start;
+    color: var(--cor-text-3);
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.span-text-li{
+    font-weight: bold;
+    color: var(--cor-text-3);
+}
+
+.main-texto{
+    display: flex;
+    flex-direction: column;
+    /* background: var(--cor-fundo-3); */
+    gap: 20px;
+    margin: 0 auto;
+    width: 90%;
+}
+.main-texto p{
+    text-align: justify;
+    color: var(--cor-text-2);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.main-texto ul li{
+    list-style: none;
+    gap: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+.main-img{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.main-img img{
+    width: 400px;
+}
+/* nicio do CSS footer  */
+footer{
+    background: var(--cor-fundo-3);
+}
