@@ -30,6 +30,10 @@
     /* scroll-behavior: smooth; *//*se for ter rolagem lenta*/
 }
 
+html{
+    scroll-behavior: smooth;    
+}
+
 body{
     margin: 0;
     background: var(--cor-fundo-1);
@@ -170,7 +174,8 @@ h4{
 }
 .main-img img{
     width: 400px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
 }
 /* nicio do CSS footer  */
 footer{
