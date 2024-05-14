@@ -39,37 +39,43 @@ body{
     max-width:1200px;
     margin: 0 auto;
     padding: 10px;
+    gap:10px;
     background:var(--cor-fundo-2);
+}
+#div1{
+    /* width: 100%; */
+}
+#div2{
+    width: 80%;
+    margin-left: 250px;
 }
 
 /* Inicio do CSS do header */
 header{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
     background: var(--cor-fundo-1);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 30px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top: 100px;
 }
 img{
-    width: 150px;
+    width: 250px;
 }
 
 #nav_flutuante{
     position: fixed;
-    /* background-color: var(--cor-fundo-1);  */
     border-radius: 5px;
-    /* cursor: pointer; */
 }
 .menu-geral{
     display: flex;
     background: ;
-    justify-content: end;
     padding: 10px 20px;
 }
 
 .menu-geral ul{
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -95,7 +101,6 @@ img{
 main{
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
     gap: 15px;
 }
 
@@ -136,7 +141,6 @@ h4{
 .main-texto{
     display: flex;
     flex-direction: column;
-    /* background: var(--cor-fundo-3); */
     gap: 20px;
     margin: 0 auto;
     width: 90%;
