@@ -173,11 +173,30 @@ h4{
     justify-content: space-between;
 }
 .main-img img{
-    width: 400px;
+    width: 300px;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+}
+
+.main-img2 img{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 500px;
     /* flex-wrap: wrap; */
     margin: 0 auto;
 }
 /* nicio do CSS footer  */
 footer{
     background: var(--cor-fundo-3);
+    margin: 50px auto;
+    gap: 20px;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* margin: 0 auto; */
 }
